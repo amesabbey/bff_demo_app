@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "378684653165",
+    "project_id": "bffsocialapp",
+    "storage_bucket": "bffsocialapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378684653165:android:152945dbfbd033295e0964",
+        "android_client_info": {
+          "package_name": "com.example.bff_demo_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378684653165-e1fnu98spica13gms3emt947hdach4mi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDU36z9xlyTcaZzBbxXCbtageFgmbl_Xk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378684653165-e1fnu98spica13gms3emt947hdach4mi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "378684653165-gfkd2kn3ljirenc954v0udtk8mm13hur.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bffsocialapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378684653165:android:c566a46c0d9b5b885e0964",
+        "android_client_info": {
+          "package_name": "com.example.bffsocialapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378684653165-e1fnu98spica13gms3emt947hdach4mi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDU36z9xlyTcaZzBbxXCbtageFgmbl_Xk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378684653165-e1fnu98spica13gms3emt947hdach4mi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "378684653165-gfkd2kn3ljirenc954v0udtk8mm13hur.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bffsocialapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
