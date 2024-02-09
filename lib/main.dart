@@ -1,13 +1,15 @@
-import 'package:bff_demo_app/account_creation/registration_page.dart';
+import 'package:bff_demo_app/login/registration_page.dart';
+import 'package:bff_demo_app/messaging/messages_page.dart';
 import 'package:bff_demo_app/settings/firebase_options.dart';
 import 'package:bff_demo_app/settings/settings_page.dart';
 import 'package:bff_demo_app/user_account/account_page.dart';
+import 'package:bff_demo_app/login/logout_page.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:firebase_core/firebase_core.dart';
 
 import 'settings/auth_provider.dart';
-import 'dashboard/dashboard_page.dart';
+import 'dashboard/navigation_dashboard.dart';
 import 'login/login_page.dart';
 
 Future<void> main() async {
@@ -37,9 +39,11 @@ class MainApp extends StatelessWidget {
         '/': (context) => const HomePage(),
         '/login': (context) => LoginPage(),
         '/registration': (context) => RegistrationPage(),
-        '/dashboard': (context) => const DashboardPage(),
+        '/dashboard': (context) => const NavigationDashboard(),
         '/settings': (context) => const SettingsPage(),
         '/account': (context) => const AccountPage(),
+        '/messages': (context) => const MessagesPage(),
+        '/logout': (context) => const LogoutPage(),
       },
     );
   }
@@ -58,7 +62,7 @@ class _HomePageState extends State<HomePage> {
     var authProvider = context.watch<AuthProvider>();
 
     if (authProvider.loggedInUser != null) {
-      return const DashboardPage();
+      return const NavigationDashboard();
     } else {
       return Scaffold(
           body: Center(

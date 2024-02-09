@@ -1,3 +1,4 @@
+import 'package:bff_demo_app/user_account/profile_questionnaire.dart';
 import 'package:flutter/material.dart';
 
 class AccountPage extends StatelessWidget {
@@ -5,6 +6,20 @@ class AccountPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Column(
+      children: [
+        TextButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const ProfileQuestionnairePage(),
+              ),
+            );
+          }, 
+          child: const Text('Update Profile')
+        ),
+      ],
+    );
   }
 }
